@@ -1,0 +1,147 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background: #fafafa;
+}
+
+.logo img {
+  height: 40px;
+  width: auto;
+  display: block;
+}
+
+.top-header {
+  position: sticky; /* ou fixed */
+  top: 0;
+  width: 100%;
+  background: #ffffff;
+  z-index: 1000;
+  padding: 10px 0;
+}
+
+
+.navbar {
+  background: #ffffff;
+  padding: 12px 0;
+}
+
+.navbar .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 12px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}                                     /* estiliza os links */
+
+.nav-links a {
+  color: rgb(20, 18, 18);
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  color: #ffbf00;
+}
+
+
+.menu-cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.card {
+  width: 120px;
+  padding: 12px;
+  background: white;
+  border-radius: 14px;
+
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.15);
+
+  text-decoration: none;
+  transition: 0.25s;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.card p {
+  font-size: 18px;
+  color: #b30000;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* Efeito hover */
+.card:hover {
+  transform: translateY(-6px) scale(1.03);
+  box-shadow: 0px 8px 20px rgba(0,0,0,0.25);
+  cursor: pointer;
+}
+
+.logo {
+  width: 90px;          /* Ajuste o tamanho da logo */
+  height: auto;
+}
+
+.Aperitivos {
+  display: flex;  /* coloca os itens lado a lado */
+  flex-wrap: wrap;  /* quebra linha quando faltar espaço */
+  justify-content: center;
+  gap: 5px;
+  padding: 10px;  /* espaçamento interno dá uma folga nas bordas da seção. */
+}
+
+.aperitivo {
+  text-align: center;
+  width: 150px;
+  background-color: #fdfdfd; 
+  border-radius: 15px; /* bordas arredondadas do card */
+  padding: 5px; 
+  transition: transform 0.2s; /* animação suave */
+  box-shadow: 0px 4px 12px rgba(0,0,0,0.15); /* sombra suave */
+  text-decoration: none;
+  transition: 0.25s;
+  justify-items: center;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 15px;
+}
+
+ /* Efeito quando o mouse passa por cima */
+.aperitivo:hover {
+  transform: translateY(-5px); /* levanta um pouquinho */
+  box-shadow: 0px 8px 20px rgba(0,0,0,0.25);
+  cursor: pointer;
+}
+
+.aperitivo img {
+  width:  100%;
+  height: 120px;
+  border-radius: 10px;
+  object-fit: cover; /* corta o excesso sem distorcer */
+  border: 2px solid #ccc;
+  display: block;
+  margin: 10px;
+}
+
+.aperitivo span {
+  font-size: 18px;
+  color: #b30000;
+  margin-top: 10px;
+}
+
