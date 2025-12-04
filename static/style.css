@@ -141,7 +141,16 @@ body {
 
 .aperitivo span {
   font-size: 18px;
-  color: #b30000;
+  color: black;
   margin-top: 10px;
 }
 
+.grupo {
+  margin-top: 40px;
+}
+
+.grupo h3 {
+  font-size: 20px;
+  color: black;
+  margin-bottom: 10px;
+}
